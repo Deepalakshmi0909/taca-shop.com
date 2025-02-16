@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact us</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                text-transform: capitalize;
+            }
+            nav{
+                background-color:rgb(159, 93, 7);
+                color: white;
+                padding: 10px;
+                
+            }
+            h1,ul,li{
+                display: inline;
+                
+            }
+            ul{  
+                margin-left:70%;
+            }
+            a:hover{
+                color:aliceblue;
+
+            }
+            a{
+                color:black;
+            }
+            .head{
+                background-image: url(pexels-yelenaodintsova-10507213.jpg);
+                background-size:cover;
+                background-position: center;
+                height:100vh;
+                text-align: center;
+
+            }
+            .end{
+                text-align: right;
+                font-size:2em;
+                
+                color: rgb(220,178,26);
+                background-color: bisque;
+                border-color: black;
+                border-style:solid;
+                padding:30px;
+                height:auto;
+                width:max-content;
+                margin-left: 60%;
+            }
+            
+            
+            h5{
+                font-size: 3em;
+                color:whitesmoke;
+            }
+        
+                
+            
+            
+            form{
+            
+                text-align: left;
+
+                
+
+            }
+            .main{
+                background-color:rgb(220,178,26);
+                text-align: left;
+                color: beige;
+                padding:10px;
+                height: 40%;
+                width:20%;
+                
+            }
+            .location{
+                font-size: 2em;
+                color: rgb(220, 178, 26);
+            }
+            .submit{
+                background-color: whitesmoke;
+                color: black;
+                border: 1px solid black ;
+                border-radius:10px;
+                margin-top:1em;
+                width:10vw;
+                text-align: center;
+                
+
+
+
+
+            }
+            .submit a:hover{
+                color:black;
+                
+            }
+
+            input{
+                background-color: whitesmoke;
+                border-radius: 10px;
+                width: 10vw;
+                text-align: center;
+            }
+            footer{
+                background-color: rgb(238, 197, 148);
+            }
+
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="head">
+        <header>
+            <nav>
+        <h1>Contact Us</h1>
+        <ul><li><a href="foodwebsite.html">Home</a>|</li>
+        <li><a href="foodwebsite.html">About Us</a>|</li>
+        <li><a href="foodwebsite.html">Our Menu</a>|</li>
+        <li><a href="store hours.html">Store Hours</a></li></ul>
+        </nav>
+        <figure>
+            
+              
+                 <figcaption>
+                    <h5>Little Taco Shop Tacos</h5>
+                </figcaption>
+        </figure>
+        </header>
+        <div class="main">
+           <h1 class="contact">Our Contact Form</h1>
+           <form action="http://httpbin.org/get"  method="get">
+              
+                Send Us A Message
+                <p>
+                <lable for="name">name:</lable>
+                 <input type="text" placeholder="your name" name="name" id="name" required><br></p>
+                 <p>
+                 <label for="Email">Email:</label>
+                  <input type="text" placeholder="your email" name="email" id="email" required><br></p>
+                    <p>
+                 <lable for="your Message">your message</lable><br><br>
+                 <textarea type="text" placeholder="type your message here" name="message" id="message"  required></textarea><br>
+                </p>
+                 <br><br>
+                 <div class="submit">
+                  <a href="index.html">submit</a></div>
+                   <input type="reset">
+            
+            </form>
+        </div>
+           
+           
+           
+           <br><br><br>
+           <div class="end">
+                       <h1 class="location">Our Location</h1>
+                     <address>555 taco temptation lane,suit t,<br>
+                              kansas city,mo 645789
+                                 <br>
+                               phone:<a href="tel:+9876567845">9876567845</a>
+                     </address>
+       </div>
+       </div>
+
+        <footer>
+             <p>copyrigth @copy; the little taco shop</p>
+        </footer>
+    </body>
+</html>

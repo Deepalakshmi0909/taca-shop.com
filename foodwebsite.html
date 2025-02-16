@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>food website</title>
+
+
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                text-transform: capitalize;
+                
+            }
+
+            table,th,td{
+                border:3px solid rgb(192, 226, 54);
+                border-collapse: collapse;
+                width: 50%;
+                height:40%;
+
+            }
+            nav{
+                background-color:rgb(10, 131, 10);
+                color: aliceblue;
+                padding:10px;
+
+            }
+            ul,li,h1,a{
+                display: inline;
+            }
+            ul{
+                margin-left:50%;
+                
+            
+            }
+            a:hover{
+                color:white;
+            }
+            a{
+                color:black;
+            }
+            .landing{   
+                 background-image: url('pexels-cristian-rojas-8448322.jpg');
+                 background-position: center;
+                 background-size: cover;
+                 text-align: center;
+                 height:100vh;
+                 color: aliceblue;
+                  
+                }
+            .border{
+                    background-color: white;
+        
+                    
+                    width:1em;
+                    height: 40%;
+                    display:inline-block;
+                    padding-top:10px;
+            }
+                    
+            .best{
+                     display:inline-block;
+                    font-size:6em;
+                    
+             }
+            .about{
+                    background-color: orange;
+                    height: 100px;
+                    width:fit-content;
+                    padding:5px;
+                    }
+             main{
+                    background-color:orange ;
+                    color: azure;
+             }
+             footer{
+                    background-color: rgb(10, 131, 10);
+             }
+             .head{
+                    padding-top:20px;
+                    color: black;
+            }
+            .back{
+                    text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+    <nav>
+
+        <h1>welcome to the little taco shop</h1>
+        
+        <ul>
+            <li><a href="#About LTS">About LTS</a>|</li>
+            <li><a href="#menu"> menu</a>|</li>
+            <li><a href="store hours.html">store hours</a>|</li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+            
+    <div class="landing">
+        <h1 class="head">Tacos and a drink</h1><br><br>
+        <div class="border"></div>
+        <p class="best">the best <br>food to<br> <b>feel</b></p><br><br><br><br><br>
+        <div class="about">
+        <h1 id="About LTS">About LTS</h1><br>
+        <p>LTS was founded in 1987. our shop was build from a love of tacos .<br> we hope our shop adds unique and interesting place to our little town.<br></p></div>
+        <aside>
+            <h1>Taco Trivia</h1><br>
+            <details>
+                   <summary>when did tacos first appear  in the united stated?</summary>
+                   <p>jeffrey m.pilcher,taco history and professor of history at the university of history  at the says, the earliest nention of tacos in the united states are in a newspaper from<time datetime="1905">1905</time>
+        
+                   
+                   </p><br><br>
+            </details>
+        </aside>
+    </div>
+
+       
+    <main>
+        <hr>
+        <h1 id="menu">Our Menu</h1><br>
+        <table >
+            <tr><th colspan="3">OUR TACOS</th></tr>
+            <tr><th>tacos</th><th>qty.</th><th>prices</th></tr>
+            <tr><b><td rowspan="3">crunchy</td></b><td>1</td><td>$1.50</td></tr>
+            <tr><td>2</td><td>$2.50</td></tr>
+            <tr><td>3</td><td>$3.50</td></tr>
+            <tr><td rowspan="3">soft</td><td>1</td><td>$2.50</td></tr>
+            <tr><td>2</td><td>$3.50</td></tr>
+            <tr><td>3</td><td>$3.50</td></tr>
+            <tr ><td colspan="3">chips & salsa $2</td></tr>
+        </table>
+        <div class="back">
+        <a href="#">back to top</a></div>
+    </main>
+
+        <footer>
+            <p>copyrigth &copy; the little taco shop</p>
+        </footer>
+        
+
+    </body>
+</html>
